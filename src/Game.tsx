@@ -9,7 +9,7 @@ interface Item {
   clicked: boolean;
 }
 
-const createItems = (): Item[] => {
+const createItem = (): Item[] => {
   const items: Item[] = [];
   for (let i = 0; i < 36; i++) {
     items.push({ hasItem: false, clicked: false });
